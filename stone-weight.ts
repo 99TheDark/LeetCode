@@ -7,8 +7,6 @@ function lastStoneWeight(stones: number[]): number {
         let y = stones[0],
             x = stones[1];
         
-        console.log(stones)
-
         if(x == y) {
             stones.splice(0, 2);
         } else {
